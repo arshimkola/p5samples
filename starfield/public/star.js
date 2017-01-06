@@ -30,7 +30,7 @@ function Star(){
 		var px = map( this.x / this.pz, 0, 1,0,width);
 		var py = map( this.y / this.pz, 0, 1,0,height);
 		this.pz = this.z;
-		stroke(0,0,255);
+		stroke(255,255,255);
 		line(px,py,sx,sy);
 	}
 
